@@ -11,13 +11,14 @@ header {
 header h1 {
     font-size: 32px;
     color: white;
+    margin: auto 0;
 }
 header h1 span {
     color: #ff6e40;
 }
 
 header nav {
-    margin: 20px 15px 10px 10px;
+    margin: 30px 15px 10px 10px;
 }
 
 .centered {
