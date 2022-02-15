@@ -72,3 +72,13 @@ figure {
 	font-size: 90%;       
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
