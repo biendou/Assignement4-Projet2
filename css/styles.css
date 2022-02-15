@@ -86,10 +86,16 @@ header {
 
 .card a img {
     width: 100%;
+    filter: saturate(0.5);
 }
 
 .card:hover a div .button {
         background-color: #FF3D00;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px #37474f;
+    filter: saturate(2.5);
 }
 
 @media only screen and (max-width: 768px) {
