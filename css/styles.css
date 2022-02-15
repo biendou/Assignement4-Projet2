@@ -32,10 +32,11 @@ figure {
 
 .button {
     padding: 0.5em;
-    background-color: #FF3D00;
+    background-color: white;
     color: white;
     border: none;
     border-radius: 0.25rem;
+    transition: background-color 1s;
 }
 
 
@@ -79,5 +80,34 @@ header {
 
 .cards{
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.card a img {
+    width: 100%;
+}
+
+.card:hover a div .button {
+        background-color: #FF3D00;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card {
+        background: white;
+        margin-bottom: 2em;	
+        padding: 0;
+        width: 49%;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    .card {
+        background: white;
+        margin-bottom: 2em;	
+        padding: 0;
+        width: 100%;
+    }
+}
+
