@@ -45,14 +45,13 @@ figure {
   margin: 1em auto;
 }
 
-.cards {
 
-  }
 
 .card {
 	background: white;
 	margin-bottom: 2em;	
     padding: 0;
+    width: 24%;
 }
 
 .card a {
